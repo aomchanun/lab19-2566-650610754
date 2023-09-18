@@ -67,6 +67,7 @@ export default function Home() {
       if (error.response.data) {
         alert(error.response.data.message);
       }
+      setLoadingLogin(false);
     }
   };
 
